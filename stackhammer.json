@@ -1,0 +1,28 @@
+{
+  "metaVersion": "1.1.6",
+  "puppetVersion": "PUPPET27",
+  "environments": [
+    {
+      "siteLocation": "manifests",
+      "moduleLocations": [
+        "modules"
+      ],
+      "name": "production"
+    }
+  ],
+  "tests": [
+    {
+      "rakeFile": "modules/stdlib/Rakefile",
+      "rakeTask": "spec",
+      "reformatResults": true,
+      "outputs": [
+        {
+          "location": "modules/stdlib/spec/reports",
+          "name": "stdlib output"
+        }
+      ],
+      "name": "stdlib"
+    }
+  ],
+  "puppetLintEnabled": false
+}

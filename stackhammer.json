@@ -22,6 +22,18 @@
         }
       ],
       "name": "stdlib"
+    },
+    {
+      "rakeFile": "modules/apt/Rakefile",
+      "rakeTask": "spec",
+      "reformatResults": true,
+      "outputs": [
+        {
+          "location": "modules/apt/spec/reports",
+          "name": "apt output"
+        }
+      ],
+      "name": "apt"
     }
   ],
   "puppetLintEnabled": false

@@ -34,6 +34,90 @@
         }
       ],
       "name": "apt"
+    },
+    {
+      "rakeFile": "modules/mongodb/Rakefile",
+      "rakeTask": "spec",
+      "reformatResults": true,
+      "outputs": [
+        {
+          "location": "modules/mongodb/spec/reports",
+          "name": "mongodb output"
+        }
+      ],
+      "name": "mongodb"
+    },
+    {
+      "rakeFile": "modules/nodejs/Rakefile",
+      "rakeTask": "spec",
+      "reformatResults": true,
+      "outputs": [
+        {
+          "location": "modules/nodejs/spec/reports",
+          "name": "nodejs output"
+        }
+      ],
+      "name": "nodejs"
+    },
+    {
+      "rakeFile": "modules/razor/Rakefile",
+      "rakeTask": "spec",
+      "reformatResults": true,
+      "outputs": [
+        {
+          "location": "modules/razor/spec/reports",
+          "name": "razor output"
+        }
+      ],
+      "name": "razor"
+    },
+    {
+      "rakeFile": "modules/ruby/Rakefile",
+      "rakeTask": "spec",
+      "reformatResults": true,
+      "outputs": [
+        {
+          "location": "modules/ruby/spec/reports",
+          "name": "ruby output"
+        }
+      ],
+      "name": "ruby"
+    },
+    {
+      "rakeFile": "modules/tftp/Rakefile",
+      "rakeTask": "spec",
+      "reformatResults": true,
+      "outputs": [
+        {
+          "location": "modules/tftp/spec/reports",
+          "name": "tftp output"
+        }
+      ],
+      "name": "tftp"
+    },
+    {
+      "rakeFile": "modules/vcsrepo/Rakefile",
+      "rakeTask": "default",
+      "reformatResults": true,
+      "outputs": [
+        {
+          "location": "modules/vcsrepo/spec/reports",
+          "name": "vcsrepo output"
+        }
+      ],
+      "name": "vcsrepo"
+    },
+    {
+      "rakeFile": "modules/xinetd/Rakefile",
+      "rakeTask": "spec",
+      "reformatResults": true,
+      "outputs": [
+        {
+          "location": "modules/xinetd/spec/reports",
+          "name": "xinetd output"
+        }
+      ],
+      "name": "xinetd"
     }
   ],
   "puppetLintEnabled": false
